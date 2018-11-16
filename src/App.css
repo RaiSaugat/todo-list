@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taskInput {
+  display: flex;
+}
+
+.taskInput input {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.taskInput button {
+  color: white;
+  background: #0074ab;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+h4 {
+  text-align: center;
+}
+
+.todoList {
+  border-right: 1px solid #ccc;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.taskList li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.taskList .remove {
+  color: white;
+  float: right;
+  margin-top: -4px;
+  background: #2e2e2e;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
